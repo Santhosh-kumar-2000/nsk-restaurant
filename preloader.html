@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>fff</title>
+        <script>
+            window.onload=function()
+            {
+                document.getElementById('loader').style.display="none"
+                document.getElementById('content').style.display="block"
+            }
+
+
+        </script>
+        <style>
+            #content{
+                display: none;
+            }
+            
+            #loader img{
+                width: 600px;
+            }
+            #loader{
+                border: 0px solid red;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 600px;
+                height: 600px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="loader">
+            <img src="preloader.gif"/>
+        </div>
+        <div id="content">
+        <img src="1.jpg"/>
+    </div>
+    </body>
+</html>

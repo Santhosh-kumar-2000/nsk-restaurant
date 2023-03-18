@@ -1,0 +1,115 @@
+#scrollers{
+   
+    height:700px;
+    width: 1550px;
+    overflow: hidden;
+    
+}
+
+#scrollers1{
+    
+    
+    position:relative;
+    width:6200px;
+    animation-duration: 20s;
+    animation-name: slide;  
+    animation-iteration-count: infinite;
+}
+#scrollers1 img{
+    width: 1550px;
+    float: left;
+}
+@keyframes slide
+{
+   0%
+   {
+    left:0px;
+   }
+   20%
+   {
+    left:0px;
+   }
+   25%{
+    left:-1550px;
+   }
+   45%{
+    left: -1550px;
+   }
+   50%{
+    left: -3100;
+   }
+   70%{
+    left:-3100;
+   }
+   75%{
+    left:-4650;
+   }
+   95%{
+    left:-4650px;
+   }
+   100%{
+    left: 6200px;
+   }
+}
+s1{
+    width:1550px;
+    height:700px;
+}
+
+
+.hmp{
+    border: 0px solid rgba(0, 42, 255, 0.638);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.hmp1{
+    border: 0px solid rgb(128, 0, 96);
+    width:350px;
+    height: 250px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+    transition: transform 1s;
+}
+.hmp1:hover{
+    transform: scale(1.05);
+}
+.hmp1 img{
+    width:100%;
+}
+.checked{
+    color: rgb(255, 89, 0);
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+.ss1{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    border: 0px solid red;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:darkgrey;
+}
+.footerb{
+    
+    height: 180px;
+    width: 350px;
+    float: left;
+    color:crimson;
+    text-align:center;
+}

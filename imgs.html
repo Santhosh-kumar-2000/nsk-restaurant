@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <style>
+           
+           #scrollers{
+   
+   height:700px;
+   width: 1550px;
+   overflow: hidden;
+   
+}
+
+#scrollers1{
+   
+   
+   position:relative;
+   width:6200px;
+   animation-duration: 20s;
+   animation-name: slide;  
+   animation-iteration-count: infinite;
+}
+#scrollers1 img{
+   width: 1550px;
+   float: left;
+}
+s1{
+    width:1550px;
+    height:700px;
+}
+@keyframes slide
+{
+  0%
+  {
+   left:0px;
+  }
+  20%
+  {
+   left:0px;
+  }
+  25%{
+   left:-1550px;
+  }
+  45%{
+   left: -1550px;
+  }
+  50%{
+   left: -3100;
+  }
+  70%{
+   left:-3100;
+  }
+  75%{
+   left:-4650;
+  }
+  95%{
+   left:-4650px;
+  }
+  100%{
+   left: 6200px;
+  }
+}
+        </style>
+    </head>
+    <body>
+        
+            <div id="scrollers">
+                <div id="scrollers1">
+                    <img class="s1" src="scroller-5.webp" >
+                    <img class="s1" src="scroller-2.jpg" > 
+                    <img class="s1" src="scroller-3.jpg">
+                    <img class="s1" src="scroller-4.webp">
+                </div>
+    
+        </div>
+    </body>
+</html>

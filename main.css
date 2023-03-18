@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top ul
+{
+    list-style: none;
+    z-index: 1000;
+}
+#top ul li{
+    background-color:black;
+    border:2px solid white;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    
+}
+#top ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+#top ul li a:hover{
+    background-color:rgb(42, 165, 85);
+}
+#top ul ul{
+    display: none;
+    position: absolute;
+}
+#top ul li:hover>ul{
+    display: block;
+}

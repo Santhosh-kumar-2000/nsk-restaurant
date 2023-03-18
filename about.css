@@ -1,0 +1,93 @@
+.hmp{
+    border: 0px solid red;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.hmp1{
+    border: 0px solid green;
+    width:350px;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+    transition: transform 1s;
+}
+.hmp1:hover{
+    transform: scale(1.05);
+}
+.hmp1 img{
+    width:100%;
+}
+.checked{
+    color: orange;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+.ss1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.footer{
+    border: 0px solid red;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(147, 68, 68, 0.448);
+}
+.footerb{
+    
+    height: 180px;
+    width: 350px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+#top ul
+{
+    list-style: none;
+    z-index: 1000;
+}
+#top ul li{
+    background-color: coral;
+    border:2px solid white;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    
+}
+#top ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+#top ul li a:hover{
+    background-color:brown;
+}
+#top ul ul{
+    display: none;
+    position: absolute;
+}
+#top ul li:hover>ul{
+    display: block;
+}
